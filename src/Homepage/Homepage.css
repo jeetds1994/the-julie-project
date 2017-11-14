@@ -1,0 +1,40 @@
+.content{
+  padding-top: 85px;
+  text-align: center;
+  position: relative;
+}
+
+.slick-slide.slick-center img { margin-left: auto; margin-right: auto; }
+
+.slick-slide img{
+  height: 500px;
+  opacity: 0.3;
+  z-index: -100;
+}
+
+#catalog{
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  position: relative;
+  bottom: 60px;
+  border-radius: 20px;
+  background-color: orange;
+  font-family: cursive;
+}
+
+.subscribe{
+  height: 300px;
+}
+
+.subscribe input{
+  font-family: cursive;
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+#subInformation{
+  padding-top: 10px;
+}

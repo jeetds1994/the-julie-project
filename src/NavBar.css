@@ -1,0 +1,58 @@
+.navBar{
+  height: 80px;
+  border-style: ridge;
+  border-radius: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+.logo{
+  width: 300px;
+  margin-left: 10px;
+  font-family: cursive;
+  display: inline-block;
+  text-align: left;
+  left: 0;
+}
+
+.logo h1{
+  display: inline-block;
+
+  padding-right: 10px;
+}
+
+#middle{
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.sections{
+  width: 400px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.sections a{
+  color: black;
+  text-decoration: none;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+.sections a:hover{
+  opacity: 0.5;
+}
+
+.account{
+  display: inline-block;
+  width: 200px;
+}
+.account img{
+  padding-right: 20px;
+  float: right;
+  height: 30px;
+  width: 30px;
+}
